@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* nav */
+
+nav {
+  background-color: #000f08;
+  text-align: left;
+  padding: 1em 0.5em;
+  font-size: 15px;
+}
+
+nav ul li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a svg {
+  fill: white;
+  width: 2em;
+}
+
+/* header */
+header {
+  text-align: right;
+  background-image: url(../img/bg-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2em;
+  text-shadow: 0px 3px 6px black;
+  color: white;
+}
+
+header div h1 {
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+header div h2 {
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+/* donde */
+.donde {
+  margin: 100px;
+}
+.donde img {
+  width: 250px;
+}
+
+.donde h2 {
+  font-size: 2em;
+  margin: 40px 0px 20px 0px;
+}
+.donde p {
+  font-size: 1em;
+}
+
+/* proxima */
+
+.proxima {
+  background-color: brown;
+  padding: 50px;
+  color: white;
+}
+.proxima img {
+  width: 200px;
+}
+.proxima img,
+.proxima .texto {
+  display: inline-block;
+  vertical-align: middle;
+}
+.proxima .texto {
+  text-align: left;
+  margin-left: 25px;
+}
+.proxima h3 {
+  font-size: 2em;
+}
+.proxima h4 {
+  font-size: 1.5em;
+}
+.proxima h6 {
+  font-size: 1em;
+}
+.proxima span {
+  font-size: 0.8em;
+}
+.proxima .texto p {
+  font-size: 1em;
+}
+.proxima .texto p {
+  margin: 20px 0px;
+  font-size: 1em;
+}
+
+/* Eventos */
+.eventos {
+  padding: 100px;
+}
+.eventos h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+.eventos article {
+  display: inline-block;
+  margin: 0px 50px;
+  font-size: 1em;
+  padding-bottom: 25px;
+}
+.eventos article img {
+  margin-bottom: 10px;
+}
+.eventos article a {
+  text-decoration: none;
+}
+
+/* footer */
+
+footer {
+  background-color: #000f08;
+  text-align: center;
+  padding: 1em 0.5em;
+  font-size: 1em;
+  color: white;
+}
+
+footer div {
+  font-size: 3em;
+}
+footer div a i {
+  color: white;
+}
+
+/* PAGINA EVENTOS */
+
+/* header */
+
+.simposio-vegan #header-evento {
+  text-align: left;
+  background-image: none;
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 0px 0px 0px black;
+  color: black;
+  padding: 1em 0;
+}
+
+.simposio-vegan {
+  margin: 0 25%;
+  text-align: left;
+}
+.simposio-vegan img {
+  margin: 1em 0;
+  width: 100%;
+}
+.simposio-vegan p {
+  margin: 1em 0;
+}
